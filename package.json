@@ -15,6 +15,7 @@
     "@typescript-eslint/parser": "^7.10.0",
     "eslint": "^8.57.0",
     "eslint-plugin-security": "^3.0.0",
+    "prettier": "^3.2.5",
     "typescript": "^5.3.5"
   },
   "peerDependencies": {
