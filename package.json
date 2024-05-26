@@ -6,10 +6,16 @@
     "start": "bun src/main.ts"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@typescript-eslint/eslint-plugin": "^6.17.0",
+    "@typescript-eslint/parser": "^6.17.0",
+    "eslint": "^8.49.0",
+    "eslint-plugin-security": "^2.1.0",
+    "eslint-plugin-sonarjs": "^0.23.0",
+    "typescript": "^5.4.5"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": ">= 5.0.0"
   },
   "dependencies": {
     "elysia": "^1.0.21"
