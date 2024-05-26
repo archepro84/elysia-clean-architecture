@@ -1,6 +1,5 @@
-import { Elysia } from 'elysia';
+import { Elysia } from 'elysia'
 
-
-export const createElysia =
-  (config?: ConstructorParameters<typeof Elysia>[0]) =>
-    new Elysia({ ...config });
+export const createElysia = (
+  config?: ConstructorParameters<typeof Elysia>[0]
+) => new Elysia({ ...config })
