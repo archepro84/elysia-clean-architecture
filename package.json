@@ -3,16 +3,19 @@
   "module": "src/main.ts",
   "type": "module",
   "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "eslint --ignore-path .gitignore --fix . ",
+    "format:check": "prettier --check .",
     "start": "bun src/main.ts"
   },
   "devDependencies": {
     "@types/bun": "latest",
-    "@typescript-eslint/eslint-plugin": "^6.17.0",
-    "@typescript-eslint/parser": "^6.17.0",
-    "eslint": "^8.49.0",
-    "eslint-plugin-security": "^2.1.0",
-    "eslint-plugin-sonarjs": "^0.23.0",
-    "typescript": "^5.4.5"
+    "@typescript-eslint/eslint-plugin": "^7.10.0",
+    "@typescript-eslint/parser": "^7.10.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-security": "^3.0.0",
+    "typescript": "^5.3.5"
   },
   "peerDependencies": {
     "typescript": ">= 5.0.0"
