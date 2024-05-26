@@ -1,4 +1,4 @@
-import { createElysia } from "./common/elysia.ts";
+import { createElysia } from "./common/elysia";
 
 const PORT = 3000;
 
@@ -13,5 +13,5 @@ const elysia = createElysia()
 
 
 elysia.listen({ port: PORT }, ({ hostname, port }) => {
-  console.log(`Elysia is running on http://${hostname}:${PORT}`);
+  console.log(`Elysia is running on http://${hostname}:${port}`);
 })
